@@ -62,6 +62,7 @@ void double_image_size(uchar* image) {
     }
 
     // Reallocate the image area in memory.
+    /*
     temp = realloc(image, 4 * XSIZE  * YSIZE * 3);
 
     // Duplicate each pixel in original image to 2x2 areas in new image.
@@ -75,6 +76,7 @@ void double_image_size(uchar* image) {
             }
         }
     }
+     */
 }
 
 int main() {
